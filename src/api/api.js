@@ -12,7 +12,7 @@ async function postData(url, data) {
   
 
 export async function postRegisterUser({ firstname, lastname, email, password }) {
-  const registerUrl = "http://localhost:9031/api/users/register"
+  const registerUrl = "https://backend-token-auth.onrender.com/s"
   const registrationBody = { firstname, lastname, email, password }
   const result = await postData(registerUrl, registrationBody)
   return result
