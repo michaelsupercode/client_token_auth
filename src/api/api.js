@@ -26,7 +26,7 @@ export async function postLoginUser({ email, password }) {
 }
 
 export async function getAllUsers({ token }) {
-  const url = "http://localhost:9031/api/users"
+  const url = "https://backend-token-auth.onrender.com/"
   const response = await fetch(url, { 
     method: "GET",
     mode: 'cors', 
