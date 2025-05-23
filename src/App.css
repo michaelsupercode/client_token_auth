@@ -1,0 +1,21 @@
+
+body {
+  display: grid;
+  align-items: center;
+  min-height: 70vh;
+}
+
+
+.App {
+  display: grid;
+  text-align: center;
+  padding: 5em;
+  gap:2em;
+}
+
+.gap {
+height: 5em;
+}
+
+
+
